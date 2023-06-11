@@ -7,17 +7,17 @@
     background: blue;
 }
 
-.section-header {
+.section__section-header {
     color: yellowgreen;
     background: rgb(0, 0, 197)
 }
 
-.article-header {
+.section__article-header {
     color: yellow;
     background: rgb(0, 0, 151);
 }
 
-.paragraph {
+.section__article-text {
     color: #01205f;
     background: #12a4f8;
 }
@@ -25,4 +25,18 @@
 .main {
     width: 1000px;
     margin: 10px auto;
+}
+
+.navigation {
+    background: grey;
+    width: 1000px;
+    height: 50px;
+    margin: 0px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.navigation__link {
+    display: inline-block;
+    margin: 15px;
 }
