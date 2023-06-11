@@ -1,4 +1,4 @@
-const firstName = "Juliusz";
-const age = 15;
+const motivationalHeader = document.querySelector('.motivation-class');
+console.log(motivationalHeader);
 
-console.log(`Siema, nazywam się ${firstName}, mam ${age} lat.`);
+motivationalHeader.innerHTML = '"If you keep going long enough everything is possible."';
