@@ -40,3 +40,16 @@
     display: inline-block;
     margin: 15px;
 }
+
+.footer {
+    background: grey;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 50px 0;
+    
+}
+
+.footer__text {
+    margin: 15px;
+}
