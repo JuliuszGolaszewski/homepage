@@ -1,0 +1,24 @@
+.body-class {
+    background: rgb(12, 115, 211);
+}
+
+.main-header {
+    color: lime;
+    background: blue;
+}
+
+.section-header {
+    color: yellowgreen;
+    background: rgb(0, 0, 197)
+}
+
+.article-header {
+    color: yellow;
+    background: rgb(0, 0, 151);
+}
+
+.paragraph {
+    color: #01205f;
+    background: #12a4f8;
+}
+
