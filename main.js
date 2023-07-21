@@ -1,4 +1,9 @@
-const motivationalHeader = document.querySelector('.motivation-class');
-console.log(motivationalHeader);
+const human = {
+    Introduction: (name, age) =>{
+        console.log(`Hello, my name is ${name} and I am ${age} years old.`);
+    }
+}
 
-motivationalHeader.innerHTML = '"If you keep going long enough everything is possible."';
+human.Introduction('Adam', 16);
+human.Introduction('Wiktor', 16);
+human.Introduction('Grzesiek', 16);
